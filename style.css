@@ -1,0 +1,313 @@
+body{
+    background-image: linear-gradient(to top right, #2E8BC0, #B1D4E0);
+    background-size: 400%;
+    animation: bg-animation 20s infinite alternate;
+    font-family: "Courier New", Courier, monospace !important;
+}
+
+@keyframes bg-animation{
+    0% {background-position: left}
+    100% {background-position: right;}
+}
+
+/*NAVBAR*/
+.bg-darkblue{
+    background: #0C2D48;
+}
+/*NAVBAR END*/
+
+/*MAIN IMAGE*/
+
+/*MAIN IMAGE END*/
+
+/*GALLERY*/
+.modal-title, .modal-body, .modal-header, .modal-footer, .close {
+    color: #fff;
+    background: #0C2D48;
+}
+
+.text-shadow{
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 42, 59), 0 0 5px rgb(0, 19, 27);
+}
+
+.btn-white{
+    background: #fff !important;
+    color: #145DA0 !important;
+    font-weight: 700 !important;
+}
+/*GALLERY END*/
+
+/*CHARACTERS*/
+.card-body{
+    color: #145DA0 !important;
+    background: #B1D4E0;
+    border: none;
+}
+
+.card-body h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.chrkt-btn{
+    background: none;
+    border: none;
+    outline: none !important;
+    vertical-align: middle;
+}
+
+.card-text{
+    display: none;
+}
+
+
+/*CHARACTERS END*/
+
+
+
+/* TEMPLATES */
+#slandetDivA{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #145DA0; /* divs color*/
+    box-sizing: border-box;
+    padding: 30px;
+    color: azure;
+    margin-bottom: 150px;
+}
+
+#slandetDivA::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #145DA0; /*bg color*/
+    box-shadow: 5px 10px 18px #888888;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
+
+
+#slandetDivB{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #B1D4E0;
+    box-sizing: border-box;
+    padding: 30px;
+    color: rgb(19, 32, 219);
+    margin-bottom: 150px;
+}
+
+
+#slandetDivB::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #B1D4E0;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(4deg);
+}
+
+#slandetDivB::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #B1D4E0;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transform: skewY(-4deg);
+}
+
+#slandetDivC{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0C2D48;
+    box-sizing: border-box;
+    padding: 30px;
+    color: azure;
+    margin-bottom: 150px;
+}
+
+
+#slandetDivC::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #0C2D48;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-4deg);
+}
+
+#slandetDivC::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #0C2D48;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+    transform: skewY(4deg);
+}
+
+#slandetDivD{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #145DA0;
+    box-sizing: border-box;
+    padding: 30px;
+    color: azure;
+    margin-bottom: 0;
+}
+
+
+#slandetDivD::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #145DA0;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(4deg);
+}
+
+/* TEMPLATES END*/
+
+
+/*EMAIL FORM*/
+.material-icons{
+    font-size: 40px !important;
+    padding-right: 10px;
+}
+
+.formttl{
+    float: right;
+}
+
+.btn-blue{
+    background: #145DA0 !important;
+}
+/*EMAIL FORM END*/
+
+
+/*FOOTER START*/
+
+.element-two h3:before{
+    content: '|';
+    color: #0C2D48;
+    margin-right: 10px;
+}
+
+.element-three h3:before{
+    content: '|';
+    color: #0C2D48;
+    margin-right: 10px;
+}
+
+.fa {
+    padding: 10px 12px !important;
+    font-size: 30px !important;
+    width: 50px !important;
+    height: 50px !important;
+    text-decoration: none !important;
+    margin: 5px 2px !important;
+    border-radius: 50% !important;
+    background: #B1D4E0 !important;
+    color: #145DA0 !important;
+  }
+  
+  .fa:hover {
+      opacity: 0.5;
+  }
+
+  .cont{
+      vertical-align: top;
+      margin-left: 10px;
+      letter-spacing: -1px;
+  }
+
+  .footer-name{
+      text-align: center;
+      background: #0C2D48;
+      color: #fff;
+      line-height: 75px;
+      margin-bottom: 0;
+  }
+/*FOOTER END*/
+
+
+
+
+/*CARDS EXPERIMENT*/
+/*
+.card-before{
+    width:200px;
+    filter: blur(10px);
+}
+
+.img-txt{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    border: none;
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    filter: blur(0.7px);
+    outline: none !important;
+}
+
+.img-txt-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    filter: blur(0.7px);
+    outline: none !important;
+}
+
+.img-txt:hover{
+    filter: blur(0);
+}
+
+*/
+/*CARDS EXPERIMENT*/
